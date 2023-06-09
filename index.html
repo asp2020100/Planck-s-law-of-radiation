@@ -7,6 +7,16 @@
 <body>
     <h1>Planck's Law of Radiation</h1>
     <div id="chart"></div>
+    <div>
+    <label for="temperature">Temperature (K):</label>
+    <input type="number" id="temperature" value="5000">
+</div>
+<div>
+    <label for="wavelength">Wavelength (nm):</label>
+    <input type="number" id="wavelength" value="500">
+</div>
+<button onclick="updateChart()">Update Chart</button>
+
     <script src="script.js"></script>
 </body>
 </html>
